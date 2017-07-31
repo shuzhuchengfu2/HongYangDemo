@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import com.hongyangdemo.widget.MyImageActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -19,6 +21,11 @@ public class MainActivity extends AppCompatActivity {
      */
     public void listViewDelete(View view){
         Intent intent = new Intent(this,ListViewDeleteActivity.class);
+        startActivity(intent);
+    }
+
+    public void myImageView(View view){
+        Intent intent = new Intent(this,MyImageActivity.class);
         startActivity(intent);
     }
 }
