@@ -7,11 +7,24 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+
+    <!--qqListView-->
     <style name="popwindow_delete_btn_anim_style">
         <!-- 指定显示的动画xml -->
         <item name="android:windowEnterAnimation">@anim/delete_btn_show</item>
         <!-- 指定消失的动画xml -->
         <item name="android:windowExitAnimation">@anim/delete_btn_hide</item>
+    </style>
+
+    <!--利用Theme自定义Activity间的切换动画,在清单文件中设置-->
+    <style name="Anim_fade" parent="AppTheme">
+        <item name="android:windowAnimationStyle">@style/fade</item>
+    </style>
+    <style name="fade" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/fade_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/fade_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/fade_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/fade_out</item>
     </style>
 
 </resources>
