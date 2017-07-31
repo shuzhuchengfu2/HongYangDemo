@@ -8,6 +8,11 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="AppTheme.NoTitle.FullScreen" parent="AppTheme">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
     <!--qqListView-->
     <style name="popwindow_delete_btn_anim_style">
         <!-- 指定显示的动画xml -->

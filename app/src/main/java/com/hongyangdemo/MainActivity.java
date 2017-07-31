@@ -24,6 +24,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    /**
+     * 仿Win8的metro的UI界面
+     * @param view
+     */
     public void myImageView(View view){
         Intent intent = new Intent(this,MyImageActivity.class);
         startActivity(intent);

@@ -6,3 +6,5 @@
 2.[利用Theme自定义Activity间的切换动画](http://blog.csdn.net/lmj623565791/article/details/22990643)
 
 3.[Android 仿Win8的metro的UI界面](http://blog.csdn.net/lmj623565791/article/details/23441455)
+
+4.[Andoird 自定义ViewGroup实现竖向引导界面](http://blog.csdn.net/lmj623565791/article/details/23692439)
