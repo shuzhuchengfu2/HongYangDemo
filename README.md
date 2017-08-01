@@ -3,6 +3,8 @@
 
 ## 自定义控件
 
+[Android 自定义View（一）](http://blog.csdn.net/lmj623565791/article/details/24252901)
+
 1.[ListView滑动删除 ，仿腾讯QQ](http://blog.csdn.net/lmj623565791/article/details/22961279)
 
 2.[利用Theme自定义Activity间的切换动画](http://blog.csdn.net/lmj623565791/article/details/22990643)

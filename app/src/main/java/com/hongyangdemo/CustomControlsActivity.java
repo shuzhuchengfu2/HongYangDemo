@@ -19,6 +19,16 @@ public class CustomControlsActivity extends AppCompatActivity {
     }
 
     /**
+     * 自定义控件概括
+     * @param view
+     */
+    public void customControlTotal(View view){
+        Intent intent = new Intent(this,CustomTitleViewActivity.class);
+        startActivity(intent);
+    }
+
+
+    /**
      * ListView 的滑动删除
      * @param view
      */

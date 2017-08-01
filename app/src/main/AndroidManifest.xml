@@ -32,6 +32,8 @@
         </activity>
         <activity android:name=".DesignPatternActivity">
         </activity>
+        <activity android:name=".CustomTitleViewActivity">
+        </activity>
     </application>
 
 </manifest>
