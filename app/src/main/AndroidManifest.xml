@@ -20,13 +20,17 @@
         <activity android:name=".widget.MyImageActivity">
         </activity>
         <activity
-            android:theme="@style/AppTheme.NoTitle.FullScreen"
-            android:name=".WelcomeActivity">
+            android:name=".WelcomeActivity"
+            android:theme="@style/AppTheme.NoTitle.FullScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+        </activity>
+        <activity android:name=".CustomControlsActivity">
+        </activity>
+        <activity android:name=".DesignPatternActivity">
         </activity>
     </application>
 

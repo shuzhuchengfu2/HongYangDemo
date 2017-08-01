@@ -1,5 +1,8 @@
 package com.hongyangdemo.pattern.bean;
 
+import android.util.Log;
+
+import com.hongyangdemo.pattern.StrategyPattern;
 import com.hongyangdemo.pattern.bean.impl.DisplayInterface;
 import com.hongyangdemo.pattern.bean.impl.RunInterface;
 
@@ -14,6 +17,7 @@ public abstract class Role {
 
     public Role(String name){
         this.name = name;
+        Log.d(StrategyPattern.TAG,this.getClass().getSimpleName()+"=====>");
     }
 
     private DisplayInterface displayInterface;
@@ -41,13 +45,13 @@ public abstract class Role {
      */
     public void expression(){
         if(displayInterface == null){
-            System.out.println("没脸啦！");
+            Log.d(StrategyPattern.TAG,"没脸啦！");
         }else{
             displayInterface.display();
         }
 
         if(runInterface == null){
-            System.out.println("勇往直前！");
+            Log.d(StrategyPattern.TAG,"勇往直前！");
         }else{
             runInterface.run();
         }

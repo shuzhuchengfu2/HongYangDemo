@@ -7,13 +7,13 @@
     android:orientation="vertical"
     tools:context="com.hongyangdemo.MainActivity">
     <Button
-        android:text="自定义控件"
-        android:onClick="customControl"
+        android:text="listViewDelete"
+        android:onClick="listViewDelete"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <Button
-        android:text="设计模式"
-        android:onClick="designPattern"
+        android:text="myImageView"
+        android:onClick="myImageView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 

@@ -1,5 +1,9 @@
 package com.hongyangdemo.pattern.bean.impl;
 
+import android.util.Log;
+
+import com.hongyangdemo.pattern.StrategyPattern;
+
 /**
  * author： xiongdejin
  * date: 2017/8/1
@@ -10,6 +14,6 @@ public class RunA implements RunInterface{
 
     @Override
     public void run() {
-        System.out.println("金蝉脱壳");
+        Log.d(StrategyPattern.TAG,"金蝉脱壳！");
     }
 }

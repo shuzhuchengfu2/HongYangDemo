@@ -5,8 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.hongyangdemo.widget.MyImageActivity;
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -16,20 +14,22 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * ListView 的滑动删除
+     * 自定义控件
      * @param view
      */
-    public void listViewDelete(View view){
-        Intent intent = new Intent(this,ListViewDeleteActivity.class);
+    public void customControl(View view){
+        Intent intent = new Intent(this,CustomControlsActivity.class);
         startActivity(intent);
     }
 
     /**
-     * 仿Win8的metro的UI界面
+     * 设计模式
      * @param view
      */
-    public void myImageView(View view){
-        Intent intent = new Intent(this,MyImageActivity.class);
+    public void designPattern(View view){
+        Intent intent = new Intent(this,DesignPatternActivity.class);
         startActivity(intent);
     }
+
+
 }

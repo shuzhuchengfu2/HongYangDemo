@@ -7,13 +7,13 @@
     android:orientation="vertical"
     tools:context="com.hongyangdemo.MainActivity">
     <Button
-        android:text="自定义控件"
-        android:onClick="customControl"
+        android:onClick="testStrategyPattern"
+        android:text="策略模式"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <Button
-        android:text="设计模式"
-        android:onClick="designPattern"
+        android:onClick="testObserverPattern"
+        android:text="观察者模式"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 

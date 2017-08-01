@@ -12,6 +12,8 @@ import com.hongyangdemo.pattern.bean.impl.RunA;
  */
 
 public class StrategyPattern {
+    public static String TAG = "StrategyPattern";
+
     /**
      * 角色分析：1.姓名设置 唯一 2.逃跑，攻击，防御 技能都是可以重复的
      *
@@ -43,9 +45,11 @@ public class StrategyPattern {
      * 测试角色
      */
     public void testRole(){
+
         RoleA a = new RoleA();
-        RoleB b = new RoleB();
         a.expression();
+
+        RoleB b = new RoleB();
         b.expression();
     }
 }

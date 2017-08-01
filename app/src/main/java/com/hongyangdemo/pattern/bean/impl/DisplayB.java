@@ -1,5 +1,9 @@
 package com.hongyangdemo.pattern.bean.impl;
 
+import android.util.Log;
+
+import com.hongyangdemo.pattern.StrategyPattern;
+
 /**
  * author： xiongdejin
  * date: 2017/8/1
@@ -9,6 +13,6 @@ package com.hongyangdemo.pattern.bean.impl;
 public class DisplayB implements DisplayInterface {
     @Override
     public void display() {
-        System.out.println("样子B");
+        Log.d(StrategyPattern.TAG,"样子B！");
     }
 }

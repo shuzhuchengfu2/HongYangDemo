@@ -14,3 +14,5 @@
 ## 设计模式
 
 1.[策略模式 以角色游戏为背景](http://blog.csdn.net/lmj623565791/article/details/24116745)
+
+2.[观察者模式 以微信公众服务为例](http://blog.csdn.net/lmj623565791/article/details/24179699)
