@@ -7,10 +7,17 @@
     android:orientation="vertical"
     tools:context="com.hongyangdemo.MainActivity">
     <Button
-        android:text="自定义控件概括"
+        android:text="自定义控件(一)"
         android:onClick="customControlTotal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="自定义控件(二)"
+        android:onClick="customControlTotal2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
     <Button
         android:text="listViewDelete"
         android:onClick="listViewDelete"

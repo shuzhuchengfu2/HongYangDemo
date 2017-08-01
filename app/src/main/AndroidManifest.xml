@@ -34,6 +34,8 @@
         </activity>
         <activity android:name=".CustomTitleViewActivity">
         </activity>
+        <activity android:name=".CustomImageViewActivity">
+        </activity>
     </application>
 
 </manifest>

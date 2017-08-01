@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:zhy="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical" >
+
+    <com.hongyangdemo.widget.CustomImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        zhy:image="@mipmap/ic_launcher"
+        zhy:imageScaleType="center"
+        zhy:ititleText="hello andorid ! "
+        zhy:ititleTextColor="#ff0000"
+        zhy:ititleTextSize="30sp" />
+
+    <com.hongyangdemo.widget.CustomImageView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        zhy:image="@mipmap/ic_launcher"
+        zhy:imageScaleType="center"
+        zhy:ititleText="helloworldwelcome"
+        zhy:ititleTextColor="#00ff00"
+        zhy:ititleTextSize="20sp" />
+
+    <com.hongyangdemo.widget.CustomImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        zhy:image="@drawable/lmj"
+        zhy:imageScaleType="center"
+        zhy:ititleText="妹子~"
+        zhy:ititleTextColor="#ff0000"
+        zhy:ititleTextSize="12sp" />
+
+</LinearLayout>

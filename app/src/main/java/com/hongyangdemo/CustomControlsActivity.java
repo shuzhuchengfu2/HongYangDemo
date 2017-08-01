@@ -19,11 +19,20 @@ public class CustomControlsActivity extends AppCompatActivity {
     }
 
     /**
-     * 自定义控件概括
+     * 自定义控件一
      * @param view
      */
     public void customControlTotal(View view){
         Intent intent = new Intent(this,CustomTitleViewActivity.class);
+        startActivity(intent);
+    }
+
+    /**
+     * 自定义控件二
+     * @param view
+     */
+    public void customControlTotal2(View view){
+        Intent intent = new Intent(this,CustomImageViewActivity.class);
         startActivity(intent);
     }
 

@@ -3,7 +3,9 @@
 
 ## 自定义控件
 
-[Android 自定义View（一）](http://blog.csdn.net/lmj623565791/article/details/24252901)
+[Android 自定义View (一)](http://blog.csdn.net/lmj623565791/article/details/24252901)
+
+[Android 自定义View (二) 进阶](http://blog.csdn.net/lmj623565791/article/details/24300125)
 
 1.[ListView滑动删除 ，仿腾讯QQ](http://blog.csdn.net/lmj623565791/article/details/22961279)
 
