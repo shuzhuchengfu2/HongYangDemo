@@ -1,4 +1,4 @@
-package com.hongyangdemo.pattern.bean;
+package com.hongyangdemo.pattern.observer;
 
 import java.util.Observable;
 

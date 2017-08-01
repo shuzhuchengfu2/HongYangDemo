@@ -1,4 +1,4 @@
-package com.hongyangdemo.pattern.bean.impl;
+package com.hongyangdemo.pattern.strategy;
 
 /**
  * author： xiongdejin

@@ -1,10 +1,8 @@
-package com.hongyangdemo.pattern.bean;
+package com.hongyangdemo.pattern.strategy;
 
 import android.util.Log;
 
 import com.hongyangdemo.pattern.StrategyPattern;
-import com.hongyangdemo.pattern.bean.impl.DisplayInterface;
-import com.hongyangdemo.pattern.bean.impl.RunInterface;
 
 /**
  * author： xiongdejin

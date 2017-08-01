@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import com.hongyangdemo.pattern.DecoratorPattern;
 import com.hongyangdemo.pattern.ObserverPattern;
 import com.hongyangdemo.pattern.StrategyPattern;
 
@@ -31,5 +32,14 @@ public class DesignPatternActivity extends AppCompatActivity {
     public void testObserverPattern(View view){
         ObserverPattern pattern = new ObserverPattern();
         pattern.testObserverPattern();
+    }
+
+    /**
+     * 测试装饰者模式
+     * @param view
+     */
+    public void testDecoratorPattern(View view){
+        DecoratorPattern pattern = new DecoratorPattern();
+        pattern.testDecoratorPattern();
     }
 }

@@ -1,10 +1,10 @@
-package com.hongyangdemo.pattern.bean.impl;
+package com.hongyangdemo.pattern.observer;
 
 import android.util.Log;
 
 import com.hongyangdemo.pattern.ObserverPattern;
-import com.hongyangdemo.pattern.bean.SubjectFor3dJava;
-import com.hongyangdemo.pattern.bean.SubjectForSSQJava;
+import com.hongyangdemo.pattern.observer.SubjectFor3dJava;
+import com.hongyangdemo.pattern.observer.SubjectForSSQJava;
 
 import java.util.*;
 

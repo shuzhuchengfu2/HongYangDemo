@@ -1,8 +1,9 @@
-package com.hongyangdemo.pattern.bean.impl;
+package com.hongyangdemo.pattern.strategy;
 
 import android.util.Log;
 
 import com.hongyangdemo.pattern.StrategyPattern;
+import com.hongyangdemo.pattern.strategy.RunInterface;
 
 /**
  * author： xiongdejin
@@ -10,7 +11,7 @@ import com.hongyangdemo.pattern.StrategyPattern;
  * describe:
  */
 
-public class RunA implements RunInterface{
+public class RunA implements RunInterface {
 
     @Override
     public void run() {

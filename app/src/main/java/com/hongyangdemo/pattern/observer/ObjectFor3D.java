@@ -1,7 +1,4 @@
-package com.hongyangdemo.pattern.bean;
-
-import com.hongyangdemo.pattern.bean.impl.Observer;
-import com.hongyangdemo.pattern.bean.impl.Subject;
+package com.hongyangdemo.pattern.observer;
 
 import java.util.ArrayList;
 import java.util.List;
