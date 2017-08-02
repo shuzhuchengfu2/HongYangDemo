@@ -24,3 +24,5 @@
 3.[装饰者模式 带你重回传奇世界](http://blog.csdn.net/lmj623565791/article/details/24269409)
 
 4.[工厂模式 从卖肉夹馍说起](http://blog.csdn.net/lmj623565791/article/details/24460585)
+
+5.[单例模式](http://www.blogjava.net/kenzhh/archive/2013/03/15/357824.html)

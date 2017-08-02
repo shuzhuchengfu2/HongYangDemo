@@ -7,6 +7,7 @@ import android.view.View;
 import com.hongyangdemo.pattern.DecoratorPattern;
 import com.hongyangdemo.pattern.FactoryPattern;
 import com.hongyangdemo.pattern.ObserverPattern;
+import com.hongyangdemo.pattern.SingletonPattern;
 import com.hongyangdemo.pattern.StrategyPattern;
 
 public class DesignPatternActivity extends AppCompatActivity {
@@ -51,6 +52,15 @@ public class DesignPatternActivity extends AppCompatActivity {
     public void testFactoryPattern(View view){
         FactoryPattern pattern = new FactoryPattern();
         pattern.testFactoryPattern();
+    }
+
+    /**
+     * 单例模式
+     * @param view
+     */
+    public void testSingletonPattern(View view){
+        SingletonPattern pattern = new SingletonPattern();
+        pattern.testSingletonPattern();
     }
 
 
