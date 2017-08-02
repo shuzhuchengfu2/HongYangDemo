@@ -17,6 +17,8 @@
 
 5.[圆环交替 等待效果](http://blog.csdn.net/lmj623565791/article/details/24500107)
 
+6.[视频音量调控](http://blog.csdn.net/lmj623565791/article/details/24529807)
+
 ## 设计模式
 
 1.[策略模式 以角色游戏为背景](http://blog.csdn.net/lmj623565791/article/details/24116745)

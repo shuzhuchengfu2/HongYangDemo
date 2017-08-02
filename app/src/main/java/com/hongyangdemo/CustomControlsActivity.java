@@ -63,4 +63,13 @@ public class CustomControlsActivity extends AppCompatActivity {
         Intent intent = new Intent(this,CustomProgressBarActivity.class);
         startActivity(intent);
     }
+
+    /**
+     * 视频音量调控
+     * @param view
+     */
+    public void customVolumControlBar(View view){
+        Intent intent = new Intent(this,CustomVolumControlBarActivity.class);
+        startActivity(intent);
+    }
 }

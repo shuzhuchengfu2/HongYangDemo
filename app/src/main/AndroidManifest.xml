@@ -38,6 +38,8 @@
         </activity>
         <activity android:name=".CustomProgressBarActivity">
         </activity>
+        <activity android:name=".CustomVolumControlBarActivity">
+        </activity>
     </application>
 
 </manifest>
