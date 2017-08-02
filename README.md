@@ -19,6 +19,8 @@
 
 6.[视频音量调控](http://blog.csdn.net/lmj623565791/article/details/24529807)
 
+7.[Android 完美实现图片圆角和圆形（对实现进行分析）](http://blog.csdn.net/lmj623565791/article/details/24555655)
+
 ## 设计模式
 
 1.[策略模式 以角色游戏为背景](http://blog.csdn.net/lmj623565791/article/details/24116745)

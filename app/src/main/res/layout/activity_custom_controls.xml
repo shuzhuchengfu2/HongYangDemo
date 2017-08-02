@@ -41,5 +41,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
+    <Button
+        android:text="完美实现图片圆角和圆形"
+        android:onClick="circleImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
 
 </LinearLayout>

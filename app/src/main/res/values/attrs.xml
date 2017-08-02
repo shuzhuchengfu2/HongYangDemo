@@ -35,4 +35,13 @@
         <attr name="splitSize" format="integer"/>
         <attr name="bg" format="reference"/>
     </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="borderRadius" format="dimension" />
+        <attr name="type">
+            <enum name="circle" value="0" />
+            <enum name="round" value="1" />
+        </attr>
+        <attr name="src" format="reference"/>
+    </declare-styleable>
 </resources>

@@ -72,4 +72,13 @@ public class CustomControlsActivity extends AppCompatActivity {
         Intent intent = new Intent(this,CustomVolumControlBarActivity.class);
         startActivity(intent);
     }
+
+    /**
+     * Android 完美实现图片圆角和圆形（对实现进行分析）
+     * @param view
+     */
+    public void circleImageView(View view){
+        Intent intent = new Intent(this,CircleImageViewActivity.class);
+        startActivity(intent);
+    }
 }

@@ -40,6 +40,8 @@
         </activity>
         <activity android:name=".CustomVolumControlBarActivity">
         </activity>
+        <activity android:name=".CircleImageViewActivity">
+        </activity>
     </application>
 
 </manifest>
