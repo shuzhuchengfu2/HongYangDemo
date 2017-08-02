@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.hongyangdemo">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -41,6 +43,10 @@
         <activity android:name=".CustomVolumControlBarActivity">
         </activity>
         <activity android:name=".CircleImageViewActivity">
+        </activity>
+        <activity android:name=".VolleyActivity">
+        </activity>
+        <activity android:name=".NetworkActivity">
         </activity>
     </application>
 

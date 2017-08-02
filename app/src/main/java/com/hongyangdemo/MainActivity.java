@@ -31,5 +31,14 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    /**
+     * 网络
+     * @param view
+     */
+    public void netWork(View view){
+        Intent intent = new Intent(this,NetworkActivity.class);
+        startActivity(intent);
+    }
+
 
 }

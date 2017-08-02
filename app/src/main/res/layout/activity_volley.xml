@@ -7,19 +7,29 @@
     android:orientation="vertical"
     tools:context="com.hongyangdemo.MainActivity">
     <Button
-        android:text="自定义控件"
-        android:onClick="customControl"
+        android:text="GET"
+        android:onClick="volleyGet"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/iv_volley"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
     <Button
-        android:text="设计模式"
-        android:onClick="designPattern"
+        android:text="IMAGE"
+        android:onClick="volleyImage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <Button
-        android:text="网络"
-        android:onClick="netWork"
+        android:text="JSON"
+        android:onClick="volleyJson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Auth"
+        android:onClick="volleyWithAuth"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
