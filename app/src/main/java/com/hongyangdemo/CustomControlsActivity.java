@@ -54,4 +54,13 @@ public class CustomControlsActivity extends AppCompatActivity {
         Intent intent = new Intent(this,MyImageActivity.class);
         startActivity(intent);
     }
+
+    /**
+     * 圆环交替 等待效果
+     * @param view
+     */
+    public void customProgressBar(View view){
+        Intent intent = new Intent(this,CustomProgressBarActivity.class);
+        startActivity(intent);
+    }
 }

@@ -17,4 +17,12 @@
             <enum name="center" value="1"/>
         </attr>
     </declare-styleable>
+
+
+    <declare-styleable name="CustomProgressBar">
+        <attr name="firstColor" format="color"/>
+        <attr name="secondColor" format="color" />
+        <attr name="circleWidth" format="dimension"/>
+        <attr name="speed" format="integer"/>
+    </declare-styleable>
 </resources>

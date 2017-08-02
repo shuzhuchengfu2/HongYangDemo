@@ -36,6 +36,8 @@
         </activity>
         <activity android:name=".CustomImageViewActivity">
         </activity>
+        <activity android:name=".CustomProgressBarActivity">
+        </activity>
     </application>
 
 </manifest>

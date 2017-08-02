@@ -19,13 +19,19 @@
         android:layout_height="wrap_content"/>
 
     <Button
-        android:text="listViewDelete"
+        android:text="ListView滑动删除 ，仿腾讯QQ"
         android:onClick="listViewDelete"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <Button
-        android:text="myImageView"
+        android:text="仿Win8的metro的UI界面"
         android:onClick="myImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="圆环交替 等待效果"
+        android:onClick="customProgressBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 

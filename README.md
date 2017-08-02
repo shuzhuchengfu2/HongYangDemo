@@ -15,6 +15,8 @@
 
 4.[Andoird 自定义ViewGroup实现竖向引导界面](http://blog.csdn.net/lmj623565791/article/details/23692439)
 
+5.[圆环交替 等待效果](http://blog.csdn.net/lmj623565791/article/details/24500107)
+
 ## 设计模式
 
 1.[策略模式 以角色游戏为背景](http://blog.csdn.net/lmj623565791/article/details/24116745)
