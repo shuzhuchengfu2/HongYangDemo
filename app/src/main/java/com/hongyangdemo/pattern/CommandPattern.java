@@ -10,6 +10,7 @@ import com.hongyangdemo.pattern.command.Light;
 import com.hongyangdemo.pattern.command.LightOffCommand;
 import com.hongyangdemo.pattern.command.LightOnCommand;
 import com.hongyangdemo.pattern.command.NoCommand;
+import com.hongyangdemo.pattern.command.QuickCommand;
 
 /**
  * author： xiongdejin
@@ -38,11 +39,16 @@ public class CommandPattern {
         Log.d(TAG,"CommandPattern 点击==>");
         //模拟点击
         controlPanel.keyPressed(0);
-        controlPanel.keyPressed(1);
-        controlPanel.keyPressed(2);
-        controlPanel.keyPressed(3);
-        controlPanel.keyPressed(4);
+//        controlPanel.keyPressed(1);
+//        controlPanel.keyPressed(2);
+//        controlPanel.keyPressed(3);
+//        controlPanel.keyPressed(4);
         controlPanel.keyPressed(5);
+
+        //一键操作命令
+        Log.d(TAG,"CommandPattern 一键操作命令==>");
+        QuickCommand quickCommand = new QuickCommand(controlPanel.getCommands());
+        quickCommand.execute();
 
     }
 

@@ -21,6 +21,11 @@ public class ControlPanel {
         }
     }
 
+
+    public Command [] getCommands(){
+        return commands;
+    }
+
     /**
      * 设置每个按钮对应的命令
      *
