@@ -12,6 +12,7 @@ import com.hongyangdemo.pattern.FactoryPattern;
 import com.hongyangdemo.pattern.ObserverPattern;
 import com.hongyangdemo.pattern.SingletonPattern;
 import com.hongyangdemo.pattern.StrategyPattern;
+import com.hongyangdemo.pattern.TemplatePattern;
 
 public class DesignPatternActivity extends AppCompatActivity {
 
@@ -91,6 +92,15 @@ public class DesignPatternActivity extends AppCompatActivity {
     public void testAppearancePattern(View view){
         AppearancePattern pattern = new AppearancePattern();
         pattern.testAppearancePattern();
+    }
+
+    /**
+     * 模版方法模式
+     * @param view
+     */
+    public void testTemplatePattern(View view){
+        TemplatePattern pattern = new TemplatePattern();
+        pattern.testTemplatePattern();
     }
 
 
