@@ -33,6 +33,8 @@
 
 5.[单例模式](http://www.blogjava.net/kenzhh/archive/2013/03/15/357824.html)
 
+6.[命令模式 之 管理智能家电](http://blog.csdn.net/lmj623565791/article/details/24602057)
+
 ## 网络
 ### Volley
 
