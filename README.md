@@ -37,6 +37,8 @@
 
 7.[适配器模式 以手机充电器为例](http://blog.csdn.net/lmj623565791/article/details/25833393)
 
+8.[ 设计模式 外观模式 一键电影模式](http://blog.csdn.net/lmj623565791/article/details/25837275)
+
 ## 网络
 ### Volley
 

@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.hongyangdemo.pattern.AdapterPattern;
+import com.hongyangdemo.pattern.AppearancePattern;
 import com.hongyangdemo.pattern.CommandPattern;
 import com.hongyangdemo.pattern.DecoratorPattern;
 import com.hongyangdemo.pattern.FactoryPattern;
@@ -81,6 +82,15 @@ public class DesignPatternActivity extends AppCompatActivity {
     public void testAdapterPattern(View view){
         AdapterPattern pattern = new AdapterPattern();
         pattern.testAdapterPattern();
+    }
+
+    /**
+     * 外观模式
+     * @param view
+     */
+    public void testAppearancePattern(View view){
+        AppearancePattern pattern = new AppearancePattern();
+        pattern.testAppearancePattern();
     }
 
 
