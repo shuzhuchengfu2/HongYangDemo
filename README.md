@@ -41,6 +41,8 @@
 
 9.[设计模式 模版方法模式 展现程序员的一天](http://blog.csdn.net/lmj623565791/article/details/26276093)
 
+10.[设计模式 状态模式 以自动售货机为例](http://blog.csdn.net/lmj623565791/article/details/26350617)
+
 ## 网络
 ### Volley
 

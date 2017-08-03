@@ -11,6 +11,7 @@ import com.hongyangdemo.pattern.DecoratorPattern;
 import com.hongyangdemo.pattern.FactoryPattern;
 import com.hongyangdemo.pattern.ObserverPattern;
 import com.hongyangdemo.pattern.SingletonPattern;
+import com.hongyangdemo.pattern.StatePattern;
 import com.hongyangdemo.pattern.StrategyPattern;
 import com.hongyangdemo.pattern.TemplatePattern;
 
@@ -101,6 +102,15 @@ public class DesignPatternActivity extends AppCompatActivity {
     public void testTemplatePattern(View view){
         TemplatePattern pattern = new TemplatePattern();
         pattern.testTemplatePattern();
+    }
+
+    /**
+     * 状态模式
+     * @param view
+     */
+    public void testStatePattern(View view){
+        StatePattern pattern = new StatePattern();
+        pattern.testStatePattern();
     }
 
 
