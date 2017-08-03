@@ -35,6 +35,8 @@
 
 6.[命令模式 之 管理智能家电](http://blog.csdn.net/lmj623565791/article/details/24602057)
 
+7.[适配器模式 以手机充电器为例](http://blog.csdn.net/lmj623565791/article/details/25833393)
+
 ## 网络
 ### Volley
 
