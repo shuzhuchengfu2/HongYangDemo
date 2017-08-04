@@ -21,4 +21,13 @@ public class NetworkActivity extends AppCompatActivity {
         Intent intent = new Intent(this,VolleyActivity.class);
         startActivity(intent);
     }
+
+    /**
+     * 基于Http的多线程下载
+     * @param view
+     */
+    public void multipartThreadDownloador(View view){
+        Intent intent = new Intent(this,HttpMultipartThreadDownloadorActivity.class);
+        startActivity(intent);
+    }
 }

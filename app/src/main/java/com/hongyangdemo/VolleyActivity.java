@@ -14,8 +14,8 @@ import com.android.volley.toolbox.ImageRequest;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.hongyangdemo.network.JsonRequestWithAuth;
-import com.hongyangdemo.network.User;
+import com.hongyangdemo.network.volley.JsonRequestWithAuth;
+import com.hongyangdemo.network.volley.User;
 
 import org.json.JSONObject;
 
