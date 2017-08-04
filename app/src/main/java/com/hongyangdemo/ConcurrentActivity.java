@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.hongyangdemo.concurrent.LatchDemo;
+import com.hongyangdemo.concurrent.SemaphoreDemo;
 
 public class ConcurrentActivity extends AppCompatActivity {
 
@@ -24,6 +25,15 @@ public class ConcurrentActivity extends AppCompatActivity {
         latchDemo.threadToRes();
         latchDemo.threadToResByVolatile();
         latchDemo.threadToResByLatch();
+    }
+
+    /**
+     * 测试互斥
+     * @param view
+     */
+    public void testSemaphore(View view){
+        SemaphoreDemo semaphore = new SemaphoreDemo();
+        semaphore.testSemaphore();
     }
 
 }

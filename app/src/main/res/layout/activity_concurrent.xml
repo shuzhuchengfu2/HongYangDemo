@@ -11,5 +11,10 @@
         android:onClick="testLatch"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+    <Button
+        android:text=" 互斥 Semaphore"
+        android:onClick="testSemaphore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>
