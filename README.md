@@ -53,3 +53,5 @@
 1.[闭锁 CountDownLatch 之一家人一起吃个饭](http://blog.csdn.net/lmj623565791/article/details/26626391)
 
 2.[Semaphore 实现 互斥 与 连接池](http://blog.csdn.net/lmj623565791/article/details/26810813)
+
+3.[FutureTask 实现预加载数据 在线看电子书、浏览器浏览网页等](http://blog.csdn.net/lmj623565791/article/details/26817403)
