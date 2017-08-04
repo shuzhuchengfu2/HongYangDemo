@@ -8,6 +8,7 @@ import com.hongyangdemo.concurrent.CyclicBarrierDemo;
 import com.hongyangdemo.concurrent.FutureTaskDemo;
 import com.hongyangdemo.concurrent.LatchDemo;
 import com.hongyangdemo.concurrent.SemaphoreDemo;
+import com.hongyangdemo.concurrent.TimerDemo;
 
 public class ConcurrentActivity extends AppCompatActivity {
 
@@ -54,6 +55,15 @@ public class ConcurrentActivity extends AppCompatActivity {
     public void testCyclicBarrier(View view){
         CyclicBarrierDemo cyclicBarrierDemo = new CyclicBarrierDemo();
         cyclicBarrierDemo.testCyclicBarrier();
+    }
+
+    /**
+     * 测试Timer
+     * @param view
+     */
+    public void testTimer(View view){
+        TimerDemo timerDemo = new TimerDemo();
+        timerDemo.testTimer();
     }
 
 }
