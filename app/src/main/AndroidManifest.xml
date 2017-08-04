@@ -48,6 +48,8 @@
         </activity>
         <activity android:name=".NetworkActivity">
         </activity>
+        <activity android:name=".ConcurrentActivity">
+        </activity>
     </application>
 
 </manifest>
