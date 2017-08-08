@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import com.hongyangdemo.concurrent.CompletionServiceDemo;
 import com.hongyangdemo.concurrent.CyclicBarrierDemo;
 import com.hongyangdemo.concurrent.FutureTaskDemo;
 import com.hongyangdemo.concurrent.LatchDemo;
@@ -64,6 +65,16 @@ public class ConcurrentActivity extends AppCompatActivity {
     public void testTimer(View view){
         TimerDemo timerDemo = new TimerDemo();
         timerDemo.testTimer();
+    }
+
+
+    /**
+     * 测试CompletionService
+     * @param view
+     */
+    public void testCompletionService(View view){
+        CompletionServiceDemo completionServiceDemo = new CompletionServiceDemo();
+        completionServiceDemo.testCompletionServiceDemo();
     }
 
 }

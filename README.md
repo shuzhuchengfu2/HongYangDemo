@@ -66,6 +66,8 @@
 
 6.[Timer的缺陷 用ScheduledExecutorService替代](http://blog.csdn.net/lmj623565791/article/details/27109467)
 
+7.[带返回结果的批量任务执行 CompletionService ExecutorService.invokeAll](http://blog.csdn.net/lmj623565791/article/details/27250059)
+
 ## 依赖注入
 
 ### Dagger2
