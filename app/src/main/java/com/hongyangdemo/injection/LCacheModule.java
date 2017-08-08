@@ -32,6 +32,13 @@ public class LCacheModule {
 
     @Provides
     @Singleton
+    @Named("provideDefaultLCache")
+    LCache provideDefaultLCache(){
+        return new LCache();
+    }
+
+    @Provides
+    @Singleton
     @Named("LCache")
     int provideLCacheMaxSize() {
         return 600;
