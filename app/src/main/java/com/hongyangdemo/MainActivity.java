@@ -40,8 +40,21 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    /**
+     * JAVA并发
+     * @param view
+     */
     public void concurrent(View view){
         Intent intent = new Intent(this,ConcurrentActivity.class);
+        startActivity(intent);
+    }
+
+    /**
+     * 依赖注入
+     * @param view
+     */
+    public void injection(View view){
+        Intent intent = new Intent(this,DaggerDemoActivity.class);
         startActivity(intent);
     }
 

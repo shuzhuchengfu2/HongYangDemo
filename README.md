@@ -65,3 +65,7 @@
 5.[Executor详细介绍 打造基于Executor的Web服务器](http://blog.csdn.net/lmj623565791/article/details/26938985)
 
 6.[Timer的缺陷 用ScheduledExecutorService替代](http://blog.csdn.net/lmj623565791/article/details/27109467)
+
+## 依赖注入
+
+1.[基本用法](https://juejin.im/entry/58defaa5ac502e006cfdb61d)

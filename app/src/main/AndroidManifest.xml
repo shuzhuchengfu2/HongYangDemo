@@ -54,6 +54,8 @@
         </activity>
         <activity android:name=".HttpMultipartThreadDownloadorActivity">
         </activity>
+        <activity android:name=".DaggerDemoActivity">
+        </activity>
     </application>
 
 </manifest>
