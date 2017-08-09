@@ -23,6 +23,8 @@
 
 8.[ScrollView反弹效果 仿小米私密短信效果](http://blog.csdn.net/lmj623565791/article/details/28441197)
 
+9.[Android 手势锁的实现 让自己的应用更加安全吧](http://blog.csdn.net/lmj623565791/article/details/36236113)
+
 ## 设计模式
 
 1.[策略模式 以角色游戏为背景](http://blog.csdn.net/lmj623565791/article/details/24116745)

@@ -58,6 +58,8 @@
         </activity>
         <activity android:name=".BounceScrollViewActivity">
         </activity>
+        <activity android:name=".GestureLockActivity">
+        </activity>
     </application>
 
 </manifest>

@@ -44,4 +44,14 @@
         </attr>
         <attr name="src" format="reference"/>
     </declare-styleable>
+
+
+    <declare-styleable name="GestureLockViewGroup">
+        <attr name="color_no_finger_inner_circle" format="color"/>
+        <attr name="color_no_finger_outer_circle" format="color"/>
+        <attr name="color_finger_on" format="color"/>
+        <attr name="color_finger_up" format="color"/>
+        <attr name="count" format="integer"/>
+        <attr name="tryTimes" format="integer"/>
+    </declare-styleable>
 </resources>

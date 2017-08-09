@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:zhy="http://schemas.android.com/apk/res-auto"
+    tools:context="com.hongyangdemo.GestureLockActivity">
+    <com.hongyangdemo.widget.GestureLockViewGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/id_gestureLockViewGroup"
+        android:background="#F2F2F7"
+        android:gravity="center_vertical"
+        zhy:count="3"
+        zhy:tryTimes="5"
+        zhy:color_no_finger_inner_circle="#ff085D58"
+        zhy:color_no_finger_outer_circle="#ff08F0E0"
+        zhy:color_finger_on="#FF1734BF"/>
+</RelativeLayout>

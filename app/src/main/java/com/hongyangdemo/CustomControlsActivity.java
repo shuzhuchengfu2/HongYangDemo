@@ -90,4 +90,13 @@ public class CustomControlsActivity extends AppCompatActivity {
         Intent intent = new Intent(this,BounceScrollViewActivity.class);
         startActivity(intent);
     }
+
+    /**
+     * 手势密码
+     * @param view
+     */
+    public void gestureLock(View view){
+        Intent intent = new Intent(this,GestureLockActivity.class);
+        startActivity(intent);
+    }
 }
