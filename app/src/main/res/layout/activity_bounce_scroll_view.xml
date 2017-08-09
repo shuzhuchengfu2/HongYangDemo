@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hongyangdemo.BounceScrollViewActivity">
+
+    <com.hongyangdemo.widget.BounceScrollView
+        android:id="@+id/id_scrollView"
+        android:background="@drawable/shakehideimg_man"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.hongyangdemo.widget.MyListView
+            android:background="#fff"
+            android:id="@+id/id_listView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+    </com.hongyangdemo.widget.BounceScrollView>
+</RelativeLayout>

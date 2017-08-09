@@ -47,5 +47,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
+    <Button
+        android:text="ScrollView反弹效果 仿小米私密短信效果"
+        android:onClick="bounceScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+
 
 </LinearLayout>

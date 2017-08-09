@@ -81,4 +81,13 @@ public class CustomControlsActivity extends AppCompatActivity {
         Intent intent = new Intent(this,CircleImageViewActivity.class);
         startActivity(intent);
     }
+
+    /**
+     * ScrollView反弹效果 仿小米私密短信效果
+     * @param view
+     */
+    public void bounceScrollView(View view){
+        Intent intent = new Intent(this,BounceScrollViewActivity.class);
+        startActivity(intent);
+    }
 }
