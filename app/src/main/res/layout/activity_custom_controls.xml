@@ -58,7 +58,11 @@
         android:onClick="gestureLock"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-
+    <Button
+        android:text="ArcMenu"
+        android:onClick="acrMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 
 

@@ -99,4 +99,13 @@ public class CustomControlsActivity extends AppCompatActivity {
         Intent intent = new Intent(this,GestureLockActivity.class);
         startActivity(intent);
     }
+
+    /**
+     * AcrMenu
+     * @param view
+     */
+    public void acrMenu(View view){
+        Intent intent = new Intent(this, ArcMenuActivity.class);
+        startActivity(intent);
+    }
 }

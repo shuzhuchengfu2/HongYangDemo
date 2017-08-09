@@ -60,6 +60,8 @@
         </activity>
         <activity android:name=".GestureLockActivity">
         </activity>
+        <activity android:name=".ArcMenuActivity">
+        </activity>
     </application>
 
 </manifest>
