@@ -58,5 +58,14 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    /**
+     * 推荐控件
+     * @param view
+     */
+    public void recommend(View view){
+        Intent intent = new Intent(this,RecommendControlsActivity.class);
+        startActivity(intent);
+    }
+
 
 }
