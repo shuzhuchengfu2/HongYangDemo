@@ -65,4 +65,10 @@
         </attr>
         <attr name="radius" format="dimension"/>
     </declare-styleable>
+
+    <declare-styleable name="SwitchButton">
+        <attr name="item_count" format="integer" />
+        <attr name="view_bg" format="reference" />
+        <attr name="item_bg" format="reference" />
+    </declare-styleable>
 </resources>

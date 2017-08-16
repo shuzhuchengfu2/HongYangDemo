@@ -5,6 +5,8 @@
 
 1.[Android 官方推荐 : DialogFragment 创建对话框](http://blog.csdn.net/lmj623565791/article/details/37815413)
 
+2.[Android 屏幕旋转 处理 AsyncTask 和 ProgressDialog 的最佳方案](http://blog.csdn.net/lmj623565791/article/details/37936275)
+
 ## 自定义控件
 
 [Android 自定义View (一)](http://blog.csdn.net/lmj623565791/article/details/24252901)

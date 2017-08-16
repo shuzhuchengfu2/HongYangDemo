@@ -108,4 +108,13 @@ public class CustomControlsActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ArcMenuActivity.class);
         startActivity(intent);
     }
+
+    /**
+     * 选择按钮 和viewpager一起使用
+     * @param view
+     */
+    public void switchButton(View view){
+        Intent intent = new Intent(this, SwitchButtonActivity.class);
+        startActivity(intent);
+    }
 }
