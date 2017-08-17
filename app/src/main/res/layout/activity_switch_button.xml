@@ -6,9 +6,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.hongyangdemo.SwitchButtonActivity">
+    <Button
+        android:onClick="btnClick"
+        android:text="下/上一页"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
     <com.hongyangdemo.widget.SwitchButton
-        app:item_count="2"
+        android:id="@+id/sb"
+        app:item_count="4"
         android:layout_centerInParent="true"
+        app:item_text_color="@color/color_100"
+        app:item_text_size="16sp"
+        app:view_text_color="@color/color_white"
+        app:view_text_size="16sp"
         app:view_bg="@drawable/shape_r14_c100"
         app:item_bg="@drawable/shape_r12_cw"
         android:layout_width="wrap_content"

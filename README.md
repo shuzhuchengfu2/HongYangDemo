@@ -33,6 +33,8 @@
 
 10.[Android 自定义ViewGroup手把手教你实现ArcMenu](http://blog.csdn.net/lmj623565791/article/details/37567907)
 
+11.[SwitchButtonActivity](#)
+
 ## 设计模式
 
 1.[策略模式 以角色游戏为背景](http://blog.csdn.net/lmj623565791/article/details/24116745)
