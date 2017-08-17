@@ -68,4 +68,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    /**
+     * 热修复
+     * @param view
+     */
+    public void hotfix(View view){
+        Intent intent = new Intent(this,HotFixActivity.class);
+        startActivity(intent);
+    }
+
+
 }

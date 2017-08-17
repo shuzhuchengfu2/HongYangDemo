@@ -41,6 +41,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
+    <Button
+        android:text="热修复"
+        android:onClick="hotfix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
 
 
 </LinearLayout>
