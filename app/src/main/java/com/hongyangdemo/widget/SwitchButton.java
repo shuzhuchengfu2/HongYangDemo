@@ -246,14 +246,14 @@ public class SwitchButton extends View {
      */
     public void setCurrentPosition(int downPosition){
         if(downPosition != currentPosition){
-            if(onPositionChangeListener!= null){
-                onPositionChangeListener.currentPosition(downPosition);
-            }
             //计算动画
             int interval = Math.abs(downPosition - currentPosition);
             long totalIntervalTime = interval * intervalTime;
             initAnimation(totalIntervalTime,currentPosition* itemWidth,downPosition*itemWidth);
             currentPosition = downPosition;
+            if(onPositionChangeListener!= null){
+                onPositionChangeListener.currentPosition(downPosition);
+            }
         }
     }
 
