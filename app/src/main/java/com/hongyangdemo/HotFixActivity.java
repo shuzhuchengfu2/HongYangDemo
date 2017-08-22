@@ -11,6 +11,6 @@ public class HotFixActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hot_fix);
         tv = (TextView) findViewById(R.id.tv);
-        tv.setText("1111111");
+        tv.setText("后面2222");
     }
 }

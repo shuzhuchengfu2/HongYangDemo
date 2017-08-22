@@ -74,13 +74,13 @@
 
         <meta-data
             android:name="com.taobao.android.hotfix.IDSECRET"
-            android:value="24588742"/>
+            android:value="24588742-1"/>
         <meta-data
             android:name="com.taobao.android.hotfix.APPSECRET"
             android:value="01fc59b270b0aeae575df9efff2856eb"/>
         <meta-data
             android:name="com.taobao.android.hotfix.RSASECRET"
-            android:value="123456"/>
+            android:value="MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCHIAcJNQoEmYUeng3t9n8cC280JbN1a0GHkC3F2LhvUvLedj+hiigJCrRiYBb1mN48KugRdJJEZ9uOksjrYUkmIyYE/nNIF/JDfdSEm07ysdGDWwSTRMOrz65YnM/4HHyPt/ZDqeaNVvsHbO+i3TgpoNvroKLYbyaln1w7Yo2TxPReNIY2SBzTH79iAnlK33si6nwrFgvZT/63P5JkwYdfUudDneiTF/hgtz1llrhv8H8331XIJ5He3E7voyvOQ1YkbYIkrqKGbNoG+LXnHNf25tn6h6qxAewtLBaLeh0jRP8vaKo8JfjNQJHzaFC/McmIXuGynCVjZJ0xvMtpf3XlAgMBAAECggEAR2NkVDjxUfzJl6NpOI9CGE7yMVq5tQ81T6mchSo6RpZMObu/YljbTeuZ4V9iwd5BiwggExjDLeCw3mIuRCzhuIRZUcocnboJBB82Z9ilnRLU3dD4WdW6isruEWLHfQ2PwV4vfRAF/iY1+XZUJHc7dMLHbXUwk6glgtrun3Ex2x8t7xmw7PAAIFsZm+U+7RU62aIyI5CURC1FO93/olELH/1BjJB+0ucvnCEWBcnjoqSnvbZVoC/JEaf9CQLFrkxoQTPchpVU0QVHd2q+SQ6++32TgFXVvPkqjJgI/Ti5oea0OFEOIb2rZrBjh3NesANRRqVF1Ve0MMlH8jP6OwJvAQKBgQDIFsj56Qx8Bs7XtQGCae4HnCLJq/myM9aJdT9FN7Goxx7UzAejDIX0meMkGsSAJtypIBYoUQG+b0KcFHaTopJLcWXNsDfNWEN2Mnwg9xAQ/TPJjLLQxmXkAYPJBbQHQv2lnHbPm3Xzj+wFLhGd6Eu/1TkPNSZHfsToaDjMfwoa9wKBgQCs4hlyszNAJRNvE7I3GRrMJCPiPzV9dLlFKSJnrDqYMuCKljYg0+TOR+NX8K16NDILT2acBvW6WIYwXU4VNIxwVhNQprpMJIE5RENmp43mmpy2iXHKKW9CVM545ksfJKc+2Hc/hDVddW9yVQV/8he20Qdx/18VMcYWxcKaQCHDAwKBgQCERjPUqpEbSPDivwFhcp/uHfUNd4hZm1Vfh8gs/RWQqxohuUPvMS85NaZoTt3KjmZf1BtxyaOqfij9v7VoAhhOkYeog69QK+JlOBjBPjM71/etbTslM5NWOP4jHYcXKd0+54HP20kNm/5+qibxSgkRp2bSO+OzbgXEUmoCHpXSnwKBgE4eGBug536Lgj2Fq9iDqn0ls2Uu5I+cp36duKMZypwtGRLmDu1EcbXX+90nrmtynE5KAXZtGqmqCHBgKMEiLncwHagqvjFbqVxkAQSon1Dc+gTtFBKiKFjTkzxD6xvWZw/ZpgB4T9i8ELCbxFFs5dRAnVmgZ6lfBUAS+fzTD65bAoGAfWBdZkXo+RQNnPRT2iGKff2cptpyqBv7QbI09f0MOMxvd/O+tR8ABUM5Bt79LwacsPI/mvQ6q/5lgu3YtaYyTyQbpNDdCBYwRO3GFZALixglFyGBENP+DGmPnifvEOU3exymA4KVkySlWmJGkEMsiONEFXfKD4QIkdXdWjgv8r4="/>
 
         <activity android:name=".HotFixActivity">
         </activity>

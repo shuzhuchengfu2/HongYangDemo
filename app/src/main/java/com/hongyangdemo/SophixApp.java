@@ -50,7 +50,7 @@ public class SophixApp extends Application {
                             Log.d(TAG,"CODE_LOAD_RELAUNCH");
                         } else {
                             // 其它错误信息, 查看PatchStatus类说明
-                            Log.d(TAG,"CODE_ERROR");
+                            Log.d(TAG,"CODE_ERROR code:"+code);
                         }
                     }
                 }).initialize();
