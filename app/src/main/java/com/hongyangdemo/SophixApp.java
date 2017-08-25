@@ -4,6 +4,7 @@ import android.app.Application;
 import android.content.pm.PackageManager;
 import android.util.Log;
 
+import com.alibaba.android.arouter.launcher.ARouter;
 import com.taobao.sophix.PatchStatus;
 import com.taobao.sophix.SophixManager;
 import com.taobao.sophix.listener.PatchLoadStatusListener;
@@ -20,6 +21,18 @@ public class SophixApp extends Application {
     public void onCreate() {
         super.onCreate();
         initSophix();
+        initARouter();
+
+
+    }
+
+
+    private void initARouter(){
+        if(BuildConfig.DEBUG){
+            ARouter.openLog();
+            ARouter.openDebug();
+        }
+        ARouter.init(this);
     }
 
     private void initSophix() {

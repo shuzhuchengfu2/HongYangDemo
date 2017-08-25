@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import com.alibaba.android.arouter.launcher.ARouter;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -75,6 +77,18 @@ public class MainActivity extends AppCompatActivity {
     public void hotfix(View view){
         Intent intent = new Intent(this,HotFixActivity.class);
         startActivity(intent);
+    }
+
+    /**
+     * 路由
+     * @param view
+     */
+    public void aRouter(View view){
+        ARouter.getInstance().build("/test/activity")
+                .withString("name","张三")
+                .withInt("age",100)
+                .withBoolean("girl",true)
+                .navigation();
     }
 
 
