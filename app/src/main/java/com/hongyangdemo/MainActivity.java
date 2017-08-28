@@ -3,11 +3,14 @@ package com.hongyangdemo;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 
+import com.alibaba.android.arouter.facade.Postcard;
+import com.alibaba.android.arouter.facade.callback.NavigationCallback;
 import com.alibaba.android.arouter.launcher.ARouter;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements NavigationCallback {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -84,12 +87,40 @@ public class MainActivity extends AppCompatActivity {
      * @param view
      */
     public void aRouter(View view){
+        //普通路由
+//        ARouter.getInstance().build("/test/activity")
+//                .withString("name","张三")
+//                .withInt("age",100)
+//                .withBoolean("girl",true)
+//                .navigation();
+        //高级路由：结果返回
         ARouter.getInstance().build("/test/activity")
                 .withString("name","张三")
                 .withInt("age",100)
                 .withBoolean("girl",true)
-                .navigation();
+                .navigation(this,this);
+
     }
 
 
+    @Override
+    public void onFound(Postcard postcard) {
+        Log.d(ARouterDemoActivity.TAG,"找到了 ---->");
+
+    }
+
+    @Override
+    public void onLost(Postcard postcard) {
+        Log.d(ARouterDemoActivity.TAG,"没找到了 ---->");
+    }
+
+    @Override
+    public void onArrival(Postcard postcard) {
+        Log.d(ARouterDemoActivity.TAG,"跳转结束 ---->");
+    }
+
+    @Override
+    public void onInterrupt(Postcard postcard) {
+        Log.d(ARouterDemoActivity.TAG,"跳转被拦截 ---->");
+    }
 }
