@@ -35,6 +35,8 @@
 
 11.[SwitchButtonActivity](#)
 
+12.[Android 自定义 ViewPager 打造千变万化的图片切换效果](http://blog.csdn.net/lmj623565791/article/details/38026503)
+
 ## 设计模式
 
 1.[策略模式 以角色游戏为背景](http://blog.csdn.net/lmj623565791/article/details/24116745)

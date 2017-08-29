@@ -117,4 +117,13 @@ public class CustomControlsActivity extends AppCompatActivity {
         Intent intent = new Intent(this, SwitchButtonActivity.class);
         startActivity(intent);
     }
+
+    /**
+     * Android 自定义 ViewPager 打造千变万化的图片切换效果
+     * @param view
+     */
+    public void myJazzyViewPager(View view){
+        Intent intent = new Intent(this, MyJazzyViewPagerActivity.class);
+        startActivity(intent);
+    }
 }

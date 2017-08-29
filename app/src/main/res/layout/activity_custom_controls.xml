@@ -1,79 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context="com.hongyangdemo.MainActivity">
-    <Button
-        android:text="自定义控件(一)"
-        android:onClick="customControlTotal"
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-    <Button
-        android:text="自定义控件(二)"
-        android:onClick="customControlTotal2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-    <Button
-        android:text="ListView滑动删除 ，仿腾讯QQ"
-        android:onClick="listViewDelete"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-    <Button
-        android:text="仿Win8的metro的UI界面"
-        android:onClick="myImageView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-    <Button
-        android:text="圆环交替 等待效果"
-        android:onClick="customProgressBar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-    <Button
-        android:text="视频音量调控"
-        android:onClick="customVolumControlBar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-    <Button
-        android:text="完美实现图片圆角和圆形"
-        android:onClick="circleImageView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-    <Button
-        android:text="ScrollView反弹效果 仿小米私密短信效果"
-        android:onClick="bounceScrollView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-    <Button
-        android:text="手势密码"
-        android:onClick="gestureLock"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-    <Button
-        android:text="ArcMenu"
-        android:onClick="acrMenu"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-    <Button
-        android:text="SwitchButton"
-        android:onClick="switchButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-
-
-
-
-
-
-</LinearLayout>
+        android:layout_height="match_parent">
+        <Button
+            android:text="自定义控件(一)"
+            android:onClick="customControlTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="自定义控件(二)"
+            android:onClick="customControlTotal2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="ListView滑动删除 ，仿腾讯QQ"
+            android:onClick="listViewDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="仿Win8的metro的UI界面"
+            android:onClick="myImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="圆环交替 等待效果"
+            android:onClick="customProgressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="视频音量调控"
+            android:onClick="customVolumControlBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="完美实现图片圆角和圆形"
+            android:onClick="circleImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="ScrollView反弹效果 仿小米私密短信效果"
+            android:onClick="bounceScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="手势密码"
+            android:onClick="gestureLock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="ArcMenu"
+            android:onClick="acrMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="SwitchButton"
+            android:onClick="switchButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:onClick="myJazzyViewPager"
+            android:text="MyJazzyViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</ScrollView>
