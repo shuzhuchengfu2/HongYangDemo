@@ -69,5 +69,10 @@
             android:text="MyJazzyViewPager"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
+        <Button
+            android:onClick="myHorizontalScrollView"
+            android:text="MyHorizontalScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
     </LinearLayout>
 </ScrollView>

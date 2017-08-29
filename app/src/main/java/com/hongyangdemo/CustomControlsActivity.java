@@ -126,4 +126,13 @@ public class CustomControlsActivity extends AppCompatActivity {
         Intent intent = new Intent(this, MyJazzyViewPagerActivity.class);
         startActivity(intent);
     }
+
+    /**
+     * Android 自定义 HorizontalScrollView 打造再多图片（控件）也不怕 OOM 的横向滑动效果
+     * @param view
+     */
+    public void myHorizontalScrollView(View view){
+        Intent intent = new Intent(this,MyHorizontalScrollViewActivity.class);
+        startActivity(intent);
+    }
 }
