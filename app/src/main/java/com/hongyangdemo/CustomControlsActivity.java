@@ -135,4 +135,13 @@ public class CustomControlsActivity extends AppCompatActivity {
         Intent intent = new Intent(this,MyHorizontalScrollViewActivity.class);
         startActivity(intent);
     }
+
+    /**
+     *  Android 自定义RecyclerView 实现真正的Gallery效果
+     * @param view
+     */
+    public void recyclerViewGallery(View view){
+        Intent intent = new Intent(this,RecyclerViewActivity.class);
+        startActivity(intent);
+    }
 }
