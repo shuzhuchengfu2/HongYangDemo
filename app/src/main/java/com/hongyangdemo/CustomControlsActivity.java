@@ -144,4 +144,13 @@ public class CustomControlsActivity extends AppCompatActivity {
         Intent intent = new Intent(this,RecyclerViewActivity.class);
         startActivity(intent);
     }
+
+    /**
+     * 自定义ViewGroup
+     * @param view
+     */
+    public void customViewGroup(View view){
+        Intent intent = new Intent(this,CustomViewGroupActivity.class);
+        startActivity(intent);
+    }
 }
