@@ -96,3 +96,7 @@
 ## 热修复
 
 1.[Android热修复—阿里的新一代热修复技术Sophix](http://blog.csdn.net/sinat_14849739/article/details/77148251)
+
+## 源码解析
+
+1.[LayoutInflater深度解析](https://github.com/shuzhuchengfu2/HongYangDemo/blob/master/mds/AndroidLayoutInflater深度解析给你带来全新的认识.md)
