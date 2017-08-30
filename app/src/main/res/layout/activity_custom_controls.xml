@@ -84,5 +84,10 @@
             android:text="CustomViewGroup"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
+        <Button
+            android:onClick="flowLayout"
+            android:text="FlowLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
     </LinearLayout>
 </ScrollView>

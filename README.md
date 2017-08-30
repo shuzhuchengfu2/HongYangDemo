@@ -13,6 +13,10 @@
 
 [Android 自定义View (二) 进阶](http://blog.csdn.net/lmj623565791/article/details/24300125)
 
+[Android 自定义ViewGroup(一)](http://blog.csdn.net/lmj623565791/article/details/38339817)
+
+
+
 1.[ListView滑动删除 ，仿腾讯QQ](http://blog.csdn.net/lmj623565791/article/details/22961279)
 
 2.[利用Theme自定义Activity间的切换动画](http://blog.csdn.net/lmj623565791/article/details/22990643)
@@ -39,7 +43,9 @@
 
 13.[Android 自定义 HorizontalScrollView 打造再多图片（控件）也不怕 OOM 的横向滑动效果](http://blog.csdn.net/lmj623565791/article/details/38140505)
 
-14.[ Android 自定义RecyclerView 实现真正的Gallery效果](http://blog.csdn.net/lmj623565791/article/details/38173061)
+14.[Android 自定义RecyclerView 实现真正的Gallery效果](http://blog.csdn.net/lmj623565791/article/details/38173061)
+
+15.[Android 自定义ViewGroup 实战篇 -> 实现FlowLayout](http://blog.csdn.net/lmj623565791/article/details/38352503)
 ## 设计模式
 
 1.[策略模式 以角色游戏为背景](http://blog.csdn.net/lmj623565791/article/details/24116745)

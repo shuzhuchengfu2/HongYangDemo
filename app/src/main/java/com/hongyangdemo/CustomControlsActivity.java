@@ -153,4 +153,13 @@ public class CustomControlsActivity extends AppCompatActivity {
         Intent intent = new Intent(this,CustomViewGroupActivity.class);
         startActivity(intent);
     }
+
+    /**
+     * 自定义FlowLayout
+     * @param view
+     */
+    public void flowLayout(View view){
+        Intent intent = new Intent(this,FlowLayoutActivity.class);
+        startActivity(intent);
+    }
 }
