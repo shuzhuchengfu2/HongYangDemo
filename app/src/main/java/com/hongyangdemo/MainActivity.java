@@ -82,6 +82,7 @@ public class MainActivity extends AppCompatActivity implements NavigationCallbac
         startActivity(intent);
     }
 
+
     /**
      * 路由
      * @param view
@@ -101,6 +102,29 @@ public class MainActivity extends AppCompatActivity implements NavigationCallbac
                 .navigation(this,this);
 
     }
+
+    /**
+     * 其他
+     * @param view
+     */
+    public void others(View view){
+        Intent intent = new Intent(this,OthersActivity.class);
+        startActivity(intent);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     @Override

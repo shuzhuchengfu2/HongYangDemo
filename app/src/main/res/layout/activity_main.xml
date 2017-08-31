@@ -53,6 +53,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
+    <Button
+        android:text="其他"
+        android:onClick="others"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
 
 
 </LinearLayout>

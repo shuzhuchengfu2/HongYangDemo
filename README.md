@@ -106,3 +106,10 @@
 ## 源码解析
 
 1.[LayoutInflater深度解析](https://github.com/shuzhuchengfu2/HongYangDemo/blob/master/mds/AndroidLayoutInflater深度解析给你带来全新的认识.md)
+
+2.[Android 异步消息处理机制 让你深入理解 Looper、Handler、Message三者关系](http://blog.csdn.net/lmj623565791/article/details/38377229)
+
+
+## 其他
+
+1.[Android Handler 异步消息处理机制的妙用 创建强大的图片加载类](http://blog.csdn.net/lmj623565791/article/details/38476887)

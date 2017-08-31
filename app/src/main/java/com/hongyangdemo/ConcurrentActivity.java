@@ -37,7 +37,8 @@ public class ConcurrentActivity extends AppCompatActivity {
      */
     public void testSemaphore(View view){
         SemaphoreDemo semaphore = new SemaphoreDemo();
-        semaphore.testSemaphore();
+//        semaphore.testSemaphore();
+        semaphore.testSemaphoreDemo();
     }
 
     /**

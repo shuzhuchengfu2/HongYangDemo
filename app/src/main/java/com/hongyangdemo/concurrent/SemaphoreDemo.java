@@ -6,6 +6,8 @@ import com.hongyangdemo.concurrent.semaphore.Conn;
 import com.hongyangdemo.concurrent.semaphore.ConnectPool;
 import com.hongyangdemo.concurrent.semaphore.MutexPrint;
 
+import java.util.concurrent.Semaphore;
+
 /**
  * author： xiongdejin
  * date: 2017/8/4
@@ -14,6 +16,11 @@ import com.hongyangdemo.concurrent.semaphore.MutexPrint;
 
 public class SemaphoreDemo {
     public static final String TAG = "SemaphoreDemo";
+    private final Semaphore semaphore = new Semaphore(1);
+    public void testSemaphoreDemo(){
+        semaphore.release();
+    }
+
     public void testSemaphore(){
         Log.i(TAG,"ConnectPool START");
         final ConnectPool connectPool = new ConnectPool();
