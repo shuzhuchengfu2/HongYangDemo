@@ -113,3 +113,5 @@
 ## 其他
 
 1.[Android Handler 异步消息处理机制的妙用 创建强大的图片加载类](http://blog.csdn.net/lmj623565791/article/details/38476887)
+
+2.[Android Studio中AIDL使用方法](http://blog.csdn.net/lambert_a/article/details/51567773)

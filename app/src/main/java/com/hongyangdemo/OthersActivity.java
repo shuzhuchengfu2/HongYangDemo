@@ -21,4 +21,13 @@ public class OthersActivity extends AppCompatActivity {
         Intent intent = new Intent(this,HandlerImageLoaderActivity.class);
         startActivity(intent);
     }
+
+    /**
+     * AIDL
+     * @param view
+     */
+    public void binderAIDL(View view){
+        Intent intent = new Intent(this,AIDLBinderActivity.class);
+        startActivity(intent);
+    }
 }

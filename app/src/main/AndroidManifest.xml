@@ -112,6 +112,8 @@
         </activity>
         <activity android:name=".OthersActivity">
         </activity>
+        <activity android:name=".AIDLBinderActivity">
+        </activity>
     </application>
 
 </manifest>
