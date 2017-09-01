@@ -121,3 +121,5 @@
 2.[Android Studio中AIDL使用方法](http://blog.csdn.net/lambert_a/article/details/51567773)
 
 3.[Android 快速开发系列 打造万能的ListView GridView 适配器](http://blog.csdn.net/lmj623565791/article/details/38902805)
+
+4.[Android快速开发系列 10个常用工具类](http://blog.csdn.net/lmj623565791/article/details/38965311)
