@@ -1,5 +1,6 @@
 package com.hongyangdemo;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -31,6 +32,15 @@ public class DaggerDemoActivity extends AppCompatActivity {
         LCacheManager.getInstance().saveCache("key","who is lcj ?");
         LCacheManager.getInstance().readCache("key");
 
+    }
+
+    /**
+     *Android 进阶 教你打造 Android 中的 IOC 框架 【ViewInject】
+     * @param view
+     */
+    public void viewInject(View view){
+        Intent intent = new Intent(this,ViewInjectActivity.class);
+        startActivity(intent);
     }
 
 }

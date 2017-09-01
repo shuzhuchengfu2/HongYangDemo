@@ -2,19 +2,18 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="com.hongyangdemo.DaggerDemoActivity">
-    <Button
-        android:text="Dagger2 基本使用"
-        android:onClick="basicDagger"
+    tools:context="com.hongyangdemo.ViewInjectActivity">
+    <TextView
+        android:id="@+id/tv_first"
+        android:text="kkkk"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <Button
-        android:onClick="viewInject"
-        android:text="IOC 框架"
+        android:id="@+id/btn_second"
+        android:text="bbb"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-
 </LinearLayout>

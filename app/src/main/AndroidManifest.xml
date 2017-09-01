@@ -124,6 +124,8 @@
         </activity>
         <activity android:name=".OrmLiteDbActivity">
         </activity>
+        <activity android:name=".ViewInjectActivity">
+        </activity>
     </application>
 
 </manifest>
