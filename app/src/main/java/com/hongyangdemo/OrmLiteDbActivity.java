@@ -6,7 +6,11 @@ import android.util.Log;
 import android.view.View;
 
 import com.hongyangdemo.domain.User;
+import com.hongyangdemo.orm.ArticleDao;
 import com.hongyangdemo.orm.DatabaseHelper;
+import com.hongyangdemo.orm.UserDao;
+import com.hongyangdemo.orm.domain.Article;
+import com.hongyangdemo.utils.MLog;
 
 import java.sql.SQLException;
 import java.util.List;
@@ -78,4 +82,36 @@ public class OrmLiteDbActivity extends AppCompatActivity {
             e.printStackTrace();
         }
     }
+
+    public void addArticle(View view){
+        com.hongyangdemo.orm.domain.User u = new com.hongyangdemo.orm.domain.User();
+        u.setName("张鸿洋");
+        new UserDao(getApplicationContext()).add(u);
+
+        Article article = new Article();
+        article.setTitle("ORMLite的使用");
+        article.setUser(u);
+        new ArticleDao(getApplicationContext()).add(article);
+
+        Article article2 = new Article();
+        article2.setTitle("ORMLite的高级使用");
+        article2.setUser(u);
+        new ArticleDao(getApplicationContext()).add(article2);
+    }
+
+    public void getArticleById(View view){
+        Article article = new ArticleDao(getApplicationContext()).get(1);
+        MLog.e(article.getUser() + " , " + article.getTitle());
+    }
+
+    public void getArticleWithUser(View view){
+        Article article = new ArticleDao(getApplicationContext()).getArticleWithUser(1);
+        MLog.e(article.getUser() + " , " + article.getTitle());
+    }
+
+    public void listArticlesByUserId(View view){
+        List<Article> articles = new ArticleDao(getApplicationContext()).listByUserId(1);
+        MLog.e(articles.toString());
+    }
+
 }

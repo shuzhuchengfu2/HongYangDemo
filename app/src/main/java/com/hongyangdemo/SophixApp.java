@@ -5,6 +5,7 @@ import android.content.pm.PackageManager;
 import android.util.Log;
 
 import com.alibaba.android.arouter.launcher.ARouter;
+import com.facebook.stetho.Stetho;
 import com.taobao.sophix.PatchStatus;
 import com.taobao.sophix.SophixManager;
 import com.taobao.sophix.listener.PatchLoadStatusListener;
@@ -22,6 +23,7 @@ public class SophixApp extends Application {
         super.onCreate();
         initSophix();
         initARouter();
+        Stetho.initializeWithDefaults(this);
 
 
     }
