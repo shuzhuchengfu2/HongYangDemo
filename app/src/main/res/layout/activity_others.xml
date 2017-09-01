@@ -18,5 +18,10 @@
         android:text="AIDL"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+    <Button
+        android:onClick="universalAdapter"
+        android:text="UniversalAdapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>

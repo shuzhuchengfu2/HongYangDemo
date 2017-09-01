@@ -30,4 +30,13 @@ public class OthersActivity extends AppCompatActivity {
         Intent intent = new Intent(this,AIDLBinderActivity.class);
         startActivity(intent);
     }
+
+    /**
+     * Android 快速开发系列 打造万能的ListView GridView 适配器
+     * @param view
+     */
+    public void universalAdapter(View view){
+        Intent intent = new Intent(this,UniversalAdapterActivity.class);
+        startActivity(intent);
+    }
 }

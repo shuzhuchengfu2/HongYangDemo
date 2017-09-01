@@ -118,6 +118,8 @@
         </activity>
         <activity android:name=".SourceCodeActivity">
         </activity>
+        <activity android:name=".UniversalAdapterActivity">
+        </activity>
     </application>
 
 </manifest>
