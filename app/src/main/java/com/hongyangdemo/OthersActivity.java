@@ -39,4 +39,13 @@ public class OthersActivity extends AppCompatActivity {
         Intent intent = new Intent(this,UniversalAdapterActivity.class);
         startActivity(intent);
     }
+
+    /**
+     *  Android ORMLite 框架的入门用法
+     * @param view
+     */
+    public void ormLiteDb(View view){
+        Intent intent = new Intent(this,OrmLiteDbActivity.class);
+        startActivity(intent);
+    }
 }

@@ -122,6 +122,8 @@
         </activity>
         <activity android:name=".SingleItemScrollViewActivity">
         </activity>
+        <activity android:name=".OrmLiteDbActivity">
+        </activity>
     </application>
 
 </manifest>
