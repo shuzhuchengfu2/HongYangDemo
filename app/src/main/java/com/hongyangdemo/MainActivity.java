@@ -112,6 +112,15 @@ public class MainActivity extends AppCompatActivity implements NavigationCallbac
         startActivity(intent);
     }
 
+    /**
+     * 源码解析
+     * @param view
+     */
+    public void sourceCode(View view){
+        Intent intent = new Intent(this,SourceCodeActivity.class);
+        startActivity(intent);
+    }
+
 
 
 

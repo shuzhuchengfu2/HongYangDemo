@@ -109,9 +109,13 @@
 
 2.[Android 异步消息处理机制 让你深入理解 Looper、Handler、Message三者关系](http://blog.csdn.net/lmj623565791/article/details/38377229)
 
+3.[Android AsyncTask 源码解析](http://blog.csdn.net/lmj623565791/article/details/38614699)
+
 
 ## 其他
 
 1.[Android Handler 异步消息处理机制的妙用 创建强大的图片加载类](http://blog.csdn.net/lmj623565791/article/details/38476887)
 
 2.[Android Studio中AIDL使用方法](http://blog.csdn.net/lambert_a/article/details/51567773)
+
+3.[Android 快速开发系列 打造万能的ListView GridView 适配器](http://blog.csdn.net/lmj623565791/article/details/38902805)

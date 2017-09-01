@@ -114,6 +114,10 @@
         </activity>
         <activity android:name=".AIDLBinderActivity">
         </activity>
+        <activity android:name=".AsyncTaskActivity">
+        </activity>
+        <activity android:name=".SourceCodeActivity">
+        </activity>
     </application>
 
 </manifest>
