@@ -46,6 +46,8 @@
 14.[Android 自定义RecyclerView 实现真正的Gallery效果](http://blog.csdn.net/lmj623565791/article/details/38173061)
 
 15.[Android 自定义ViewGroup 实战篇 -> 实现FlowLayout](http://blog.csdn.net/lmj623565791/article/details/38352503)
+
+16.[Android 自定义ScrollView ListView 体验各种纵向滑动的需求](http://blog.csdn.net/lmj623565791/article/details/38950509)
 ## 设计模式
 
 1.[策略模式 以角色游戏为背景](http://blog.csdn.net/lmj623565791/article/details/24116745)

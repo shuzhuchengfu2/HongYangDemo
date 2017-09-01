@@ -162,4 +162,13 @@ public class CustomControlsActivity extends AppCompatActivity {
         Intent intent = new Intent(this,FlowLayoutActivity.class);
         startActivity(intent);
     }
+
+    /**
+     * 自定义ScrollView实现循环Item拖动
+     * @param view
+     */
+    public void singleItemScrollView(View view){
+        Intent intent = new Intent(this,SingleItemScrollViewActivity.class);
+        startActivity(intent);
+    }
 }

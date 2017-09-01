@@ -120,6 +120,8 @@
         </activity>
         <activity android:name=".UniversalAdapterActivity">
         </activity>
+        <activity android:name=".SingleItemScrollViewActivity">
+        </activity>
     </application>
 
 </manifest>
