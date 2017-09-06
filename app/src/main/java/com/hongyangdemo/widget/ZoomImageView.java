@@ -395,8 +395,7 @@ public class ZoomImageView extends AppCompatImageView implements ScaleGestureDet
             // 图片移动至屏幕中心
             mScaleMatrix.postTranslate((width - dw) / 2, (height - dh) / 2);
             Log.d(TAG, "width:" + getWidth() + ",height:" + getHeight());
-            mScaleMatrix
-                    .postScale(scale, scale, getWidth() / 2, getHeight() / 2);
+            mScaleMatrix.postScale(scale, scale, getWidth() / 2, getHeight() / 2);
             setImageMatrix(mScaleMatrix);
             once = false;
         }

@@ -51,6 +51,8 @@
 
 17.[Android 手势检测实战 打造支持缩放平移的图片预览效果](http://blog.csdn.net/lmj623565791/article/details/39480503)
 
+18.[ Android 高仿微信头像截取 打造不一样的自定义控件](http://blog.csdn.net/lmj623565791/article/details/39761281)
+
 ## 设计模式
 
 1.[策略模式 以角色游戏为背景](http://blog.csdn.net/lmj623565791/article/details/24116745)

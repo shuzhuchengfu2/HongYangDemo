@@ -180,4 +180,13 @@ public class CustomControlsActivity extends AppCompatActivity {
         Intent intent = new Intent(this,ZoomImageViewActivity.class);
         startActivity(intent);
     }
+
+    /**
+     * 头像剪切
+     * @param view
+     */
+    public void clipImageBorderView(View view){
+        Intent intent = new Intent(this,ClipImageBorderViewActivity.class);
+        startActivity(intent);
+    }
 }
