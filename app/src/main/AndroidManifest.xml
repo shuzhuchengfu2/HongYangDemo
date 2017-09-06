@@ -126,6 +126,8 @@
         </activity>
         <activity android:name=".ViewInjectActivity">
         </activity>
+        <activity android:name=".ZoomImageViewActivity">
+        </activity>
     </application>
 
 </manifest>

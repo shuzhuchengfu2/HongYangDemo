@@ -95,6 +95,14 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
 
+        <Button
+            android:onClick="zoomImageView"
+            android:text="手势图片缩放"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+
 
 
     </LinearLayout>

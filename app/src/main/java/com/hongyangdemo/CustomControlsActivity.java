@@ -171,4 +171,13 @@ public class CustomControlsActivity extends AppCompatActivity {
         Intent intent = new Intent(this,SingleItemScrollViewActivity.class);
         startActivity(intent);
     }
+
+    /**
+     * 手势图片缩放
+     * @param view
+     */
+    public void zoomImageView(View view){
+        Intent intent = new Intent(this,ZoomImageViewActivity.class);
+        startActivity(intent);
+    }
 }
