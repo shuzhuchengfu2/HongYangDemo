@@ -107,6 +107,14 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
 
+        <Button
+            android:onClick="game2048"
+            android:text="2048游戏"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+
 
     </LinearLayout>
 </ScrollView>

@@ -53,6 +53,8 @@
 
 18.[ Android 高仿微信头像截取 打造不一样的自定义控件](http://blog.csdn.net/lmj623565791/article/details/39761281)
 
+19.[Android 带你玩转实现游戏2048 其实2048只是个普通的控件](http://blog.csdn.net/lmj623565791/article/details/40020137)
+
 ## 设计模式
 
 1.[策略模式 以角色游戏为背景](http://blog.csdn.net/lmj623565791/article/details/24116745)

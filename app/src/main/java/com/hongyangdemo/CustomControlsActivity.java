@@ -189,4 +189,13 @@ public class CustomControlsActivity extends AppCompatActivity {
         Intent intent = new Intent(this,ClipImageBorderViewActivity.class);
         startActivity(intent);
     }
+
+    /**
+     * 2048游戏
+     * @param view
+     */
+    public void game2048(View view){
+        Intent intent = new Intent(this,Game2048Activity.class);
+        startActivity(intent);
+    }
 }
