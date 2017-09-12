@@ -132,6 +132,8 @@
         </activity>
         <activity android:name=".Game2048Activity">
         </activity>
+        <activity android:name=".ScratchCardActivity">
+        </activity>
     </application>
 
 </manifest>

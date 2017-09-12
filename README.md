@@ -55,6 +55,8 @@
 
 19.[Android 带你玩转实现游戏2048 其实2048只是个普通的控件](http://blog.csdn.net/lmj623565791/article/details/40020137)
 
+20.[Android 自定义控件实现刮刮卡效果 真的就只是刮刮卡么](http://blog.csdn.net/lmj623565791/article/details/40162163)
+
 ## 设计模式
 
 1.[策略模式 以角色游戏为背景](http://blog.csdn.net/lmj623565791/article/details/24116745)

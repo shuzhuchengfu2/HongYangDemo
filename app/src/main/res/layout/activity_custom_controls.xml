@@ -112,6 +112,13 @@
             android:text="2048游戏"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
+        <Button
+            android:onClick="scratchCard"
+            android:text="刮刮卡"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
 
 
 
