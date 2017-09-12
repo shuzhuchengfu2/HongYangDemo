@@ -64,7 +64,13 @@ public class Game2048Layout extends RelativeLayout {
     private OnGame2048Listener mGame2048Listener;
 
     // 用于确认是否需要生成一个新的值
+    /**
+     * 是否可以可并数字 true可以
+     */
     private boolean isMergeHappen = true;
+    /**
+     * 是否可以移动 true 可以
+     */
     private boolean isMoveHappen = true;
     private boolean once;
     /**
@@ -273,7 +279,7 @@ public class Game2048Layout extends RelativeLayout {
                 int next = random.nextInt(16);
                 Game2048Item item = mGame2048Items[next];
 
-                while (item.getNumber() != 0) {
+                while (item.getNumber() != 0) { //随机选中没有数字的item
                     next = random.nextInt(16);
                     item = mGame2048Items[next];
                 }
@@ -328,6 +334,7 @@ public class Game2048Layout extends RelativeLayout {
             List<Game2048Item> row = new ArrayList<>();
             for (int j = 0; j < mColumn; j++) {
                 int index = getIndexByAction(action, i, j);
+                Log.d("TAG","index:"+index+",i:"+i+",j:"+j);
                 Game2048Item item = mGame2048Items[index];
                 // 记录不为0的数字
                 if (item.getNumber() != 0) {
@@ -335,10 +342,12 @@ public class Game2048Layout extends RelativeLayout {
                 }
             }
 
+
             for (int j = 0; j < mColumn && j < row.size(); j++) {
                 int index = getIndexByAction(action, i, j);
                 Game2048Item item = mGame2048Items[index];
                 if (item.getNumber() != row.get(j).getNumber()) {
+                    //判断是否有空格
                     isMoveHappen = true;
                 }
             }
@@ -362,9 +371,15 @@ public class Game2048Layout extends RelativeLayout {
 
     /**
      * 根据Action和i,j得到下标
+     *
+     * 左滑 第一行左起，
+     * 右滑 第一行右起，
+     * 上滑 第一列上起，
+     * 下滑 第四列上起，
+     *
      * @param action
-     * @param i
-     * @param j
+     * @param i 行
+     * @param j 列
      * @return
      */
     private int getIndexByAction(ACTION action, int i, int j) {

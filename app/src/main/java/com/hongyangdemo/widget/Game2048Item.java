@@ -114,4 +114,9 @@ public class Game2048Item extends View {
         float y = getHeight() / 2 + mBound.height() / 2;
         canvas.drawText(mNumberVal, x, y, mPaint);
     }
+
+    @Override
+    public String toString() {
+        return ":"+mNumber;
+    }
 }
