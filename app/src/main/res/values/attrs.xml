@@ -75,4 +75,11 @@
         <attr name="item_text_size" format="dimension" />
         <attr name="item_text_color" format="color" />
     </declare-styleable>
+
+    <declare-styleable name="ChangeColorIconView">
+        <attr name="icon" format="reference" />
+        <attr name="color" format="color" />
+        <attr name="text" format="string" />
+        <attr name="text_size" format="dimension" />
+    </declare-styleable>
 </resources>

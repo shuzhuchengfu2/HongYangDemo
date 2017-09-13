@@ -123,12 +123,11 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
 
-
-
-
-
-
-
+        <Button
+            android:onClick="changeColorIconAndText"
+            android:text="仿微信"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
 
     </LinearLayout>
 </ScrollView>

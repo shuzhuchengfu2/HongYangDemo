@@ -59,6 +59,8 @@
 
 21.[Android 实战美女拼图游戏 你能坚持到第几关](http://blog.csdn.net/lmj623565791/article/details/40595385)
 
+22.[Android 高仿微信6.0主界面 带你玩转切换图标变色](http://blog.csdn.net/lmj623565791/article/details/41087219)
+
 ## 设计模式
 
 1.[策略模式 以角色游戏为背景](http://blog.csdn.net/lmj623565791/article/details/24116745)

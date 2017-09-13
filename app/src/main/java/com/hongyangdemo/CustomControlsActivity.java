@@ -218,4 +218,13 @@ public class CustomControlsActivity extends AppCompatActivity {
         Intent intent = new Intent(this,GamePintuLayoutActivity.class);
         startActivity(intent);
     }
+
+    /**
+     *  Android 高仿微信6.0主界面 带你玩转切换图标变色
+     * @param view
+     */
+    public void changeColorIconAndText(View view){
+        Intent intent = new Intent(this,ChangeColorIconWithTextViewActivity.class);
+        startActivity(intent);
+    }
 }
