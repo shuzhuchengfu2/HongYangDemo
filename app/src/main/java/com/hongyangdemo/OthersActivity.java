@@ -48,4 +48,13 @@ public class OthersActivity extends AppCompatActivity {
         Intent intent = new Intent(this,OrmLiteDbActivity.class);
         startActivity(intent);
     }
+
+    /**
+     *  Android EventBus实战
+     * @param view
+     */
+    public void busEvent(View view){
+        Intent intent = new Intent(this,EventBusActivity.class);
+        startActivity(intent);
+    }
 }

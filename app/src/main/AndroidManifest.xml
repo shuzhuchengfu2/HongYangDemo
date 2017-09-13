@@ -138,6 +138,8 @@
         </activity>
         <activity android:name=".ChangeColorIconWithTextViewActivity">
         </activity>
+        <activity android:name=".EventBusActivity">
+        </activity>
     </application>
 
 </manifest>

@@ -138,3 +138,5 @@
 4.[Android快速开发系列 10个常用工具类](http://blog.csdn.net/lmj623565791/article/details/38965311)
 
 5.[Android 进阶 教你打造 Android 中的 IOC 框架 【ViewInject】](http://blog.csdn.net/lmj623565791/article/details/39269193)
+
+6.[Android EventBus实战](http://blog.csdn.net/lmj623565791/article/details/40794879)
