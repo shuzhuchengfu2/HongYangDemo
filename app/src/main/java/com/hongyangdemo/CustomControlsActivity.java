@@ -7,7 +7,6 @@ import android.view.View;
 
 import com.hongyangdemo.widget.MyImageActivity;
 
-import static android.icu.text.RelativeDateTimeFormatter.Direction.THIS;
 
 /**
  * 自定义控件
@@ -207,6 +206,16 @@ public class CustomControlsActivity extends AppCompatActivity {
      */
     public void scratchCard(View view){
         Intent intent = new Intent(this,ScratchCardActivity.class);
+        startActivity(intent);
+    }
+
+
+    /**
+     * 美女拼图
+     * @param view
+     */
+    public void gamePintuLayout(View view){
+        Intent intent = new Intent(this,GamePintuLayoutActivity.class);
         startActivity(intent);
     }
 }

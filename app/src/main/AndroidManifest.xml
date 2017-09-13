@@ -134,6 +134,8 @@
         </activity>
         <activity android:name=".ScratchCardActivity">
         </activity>
+        <activity android:name=".GamePintuLayoutActivity">
+        </activity>
     </application>
 
 </manifest>

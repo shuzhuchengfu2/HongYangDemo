@@ -57,6 +57,8 @@
 
 20.[Android 自定义控件实现刮刮卡效果 真的就只是刮刮卡么](http://blog.csdn.net/lmj623565791/article/details/40162163)
 
+21.[Android 实战美女拼图游戏 你能坚持到第几关](http://blog.csdn.net/lmj623565791/article/details/40595385)
+
 ## 设计模式
 
 1.[策略模式 以角色游戏为背景](http://blog.csdn.net/lmj623565791/article/details/24116745)
