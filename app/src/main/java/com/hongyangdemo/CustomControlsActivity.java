@@ -227,4 +227,16 @@ public class CustomControlsActivity extends AppCompatActivity {
         Intent intent = new Intent(this,ChangeColorIconWithTextViewActivity.class);
         startActivity(intent);
     }
+
+
+    /**
+     *  抽奖转盘
+     * @param view
+     */
+    public void luckyPan(View view){
+        Intent intent = new Intent(this,LuckyPanViewActivity.class);
+        startActivity(intent);
+    }
+
+
 }
