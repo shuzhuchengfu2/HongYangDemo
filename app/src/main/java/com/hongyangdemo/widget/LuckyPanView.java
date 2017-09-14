@@ -148,8 +148,8 @@ public class LuckyPanView extends SurfaceView implements SurfaceHolder.Callback,
     public void surfaceCreated(SurfaceHolder holder) {
         // 初始化绘制圆弧的画笔
         mArcPaint = new Paint();
-        mArcPaint.setAntiAlias(true);
-        mArcPaint.setDither(true);
+        mArcPaint.setAntiAlias(true); //抗锯齿
+        mArcPaint.setDither(true); //防抖动
         // 初始化绘制文字的画笔
         mTextPaint = new Paint();
         mTextPaint.setColor(0xFFffffff);
@@ -184,9 +184,7 @@ public class LuckyPanView extends SurfaceView implements SurfaceHolder.Callback,
             if (mCanvas != null) {
                 // 绘制背景图
                 drawBg();
-                /**
-                 * 绘制每个块块，每个块块上的文本，每个块块上的图片
-                 */
+                //绘制每个块块，每个块块上的文本，每个块块上的图片
                 float tmpAngle = mStartAngle;
                 float sweepAngle = (float) (360 / mItemCount);
                 for (int i = 0; i < mItemCount; i++) {

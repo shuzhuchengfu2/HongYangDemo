@@ -23,7 +23,7 @@ public class LuckyPanViewActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (!mLuckyPanView.isStart()) {
                     mStartBtn.setImageResource(R.drawable.stop);
-                    mLuckyPanView.luckyStart(1);
+                    mLuckyPanView.luckyStart(0);
                 }
                 else {
                     if (!mLuckyPanView.isShouldEnd()) {
