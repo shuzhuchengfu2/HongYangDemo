@@ -63,6 +63,10 @@
 
 23.[Android SurfaceView实战 打造抽奖转盘](http://blog.csdn.net/lmj623565791/article/details/41722441)
 
+24.[Android BitmapShader 实战 实现圆形、圆角图片](http://blog.csdn.net/lmj623565791/article/details/41967509)
+
+25.[Android Xfermode 实战 实现圆形、圆角图片](http://blog.csdn.net/lmj623565791/article/details/42094215)
+
 ## 设计模式
 
 1.[策略模式 以角色游戏为背景](http://blog.csdn.net/lmj623565791/article/details/24116745)

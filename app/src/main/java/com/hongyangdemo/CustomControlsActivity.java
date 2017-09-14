@@ -238,5 +238,15 @@ public class CustomControlsActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    /**
+     *  圆形/角图片
+     * @param view
+     */
+    public void roundImage(View view){
+        Intent intent = new Intent(this,RoundImageViewActivity.class);
+        startActivity(intent);
+    }
+
+
 
 }

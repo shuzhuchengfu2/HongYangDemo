@@ -82,4 +82,12 @@
         <attr name="text" format="string" />
         <attr name="text_size" format="dimension" />
     </declare-styleable>
+
+    <declare-styleable name="RoundImageView">
+        <attr name="r_borderRadius" format="dimension" />
+        <attr name="r_type">
+            <enum name="circle" value="0" />
+            <enum name="round" value="1" />
+        </attr>
+    </declare-styleable>
 </resources>

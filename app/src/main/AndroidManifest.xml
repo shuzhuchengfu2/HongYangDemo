@@ -142,6 +142,8 @@
         </activity>
         <activity android:name=".LuckyPanViewActivity">
         </activity>
+        <activity android:name=".RoundImageViewActivity">
+        </activity>
     </application>
 
 </manifest>

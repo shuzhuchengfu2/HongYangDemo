@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:zhy="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <com.hongyangdemo.widget.RoundImageView
+            android:id="@+id/id_qiqiu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/b" >
+        </com.hongyangdemo.widget.RoundImageView>
+
+        <com.hongyangdemo.widget.RoundImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/a" >
+        </com.hongyangdemo.widget.RoundImageView>
+
+        <com.hongyangdemo.widget.RoundImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/icon" >
+        </com.hongyangdemo.widget.RoundImageView>
+
+        <com.hongyangdemo.widget.RoundImageView
+            android:id="@+id/id_meinv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/a"
+            zhy:r_borderRadius="20dp"
+            zhy:r_type="round" >
+        </com.hongyangdemo.widget.RoundImageView>
+
+        <com.hongyangdemo.widget.RoundImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/icon"
+            zhy:r_borderRadius="40dp"
+            zhy:r_type="round" >
+        </com.hongyangdemo.widget.RoundImageView>
+
+        <com.hongyangdemo.widget.RoundImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/b"
+            zhy:r_borderRadius="60dp"
+            zhy:r_type="round" >
+        </com.hongyangdemo.widget.RoundImageView>
+    </LinearLayout>
+
+</ScrollView>

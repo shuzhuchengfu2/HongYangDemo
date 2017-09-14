@@ -135,6 +135,12 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
 
+        <Button
+            android:onClick="roundImage"
+            android:text="圆形/角图片"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
 
     </LinearLayout>
 </ScrollView>
