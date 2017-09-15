@@ -144,6 +144,8 @@
         </activity>
         <activity android:name=".RoundImageViewActivity">
         </activity>
+        <activity android:name=".RoundImageViewByXfermodeActivity">
+        </activity>
     </application>
 
 </manifest>

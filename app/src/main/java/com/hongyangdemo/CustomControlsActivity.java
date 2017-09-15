@@ -248,5 +248,13 @@ public class CustomControlsActivity extends AppCompatActivity {
     }
 
 
+    /**
+     *  圆形/角图片
+     * @param view
+     */
+    public void xferMode(View view){
+        Intent intent = new Intent(this,RoundImageViewByXfermodeActivity.class);
+        startActivity(intent);
+    }
 
 }
