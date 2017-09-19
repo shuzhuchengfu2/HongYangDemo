@@ -90,4 +90,13 @@
             <enum name="round" value="1" />
         </attr>
     </declare-styleable>
+
+    <declare-styleable name="CxSolidLineChart">
+        <!--最小利率-->
+        <attr name="start" format="float" />
+        <!--最大利率-->
+        <attr name="end" format="float" />
+        <!--每期添加的利率-->
+        <attr name="perAdd" format="float" />
+    </declare-styleable>
 </resources>
