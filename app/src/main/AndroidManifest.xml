@@ -29,11 +29,13 @@
         <activity
             android:name=".WelcomeActivity"
             android:theme="@style/AppTheme.NoTitle.FullScreen">
-            <!--<intent-filter>-->
-                <!--<action android:name="android.intent.action.MAIN"/>-->
 
-                <!--<category android:name="android.intent.category.LAUNCHER"/>-->
-            <!--</intent-filter>-->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN"/> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER"/> -->
+            <!-- </intent-filter> -->
         </activity>
         <activity android:name=".CustomControlsActivity">
         </activity>
@@ -152,6 +154,8 @@
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+        </activity>
+        <activity android:name=".ConstraintLayoutActivity">
         </activity>
     </application>
 

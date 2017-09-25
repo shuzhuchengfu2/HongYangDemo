@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hongyangdemo.ConstraintLayoutActivity">
+    <TextView
+        app:layout_constraintDimensionRatio="H,16:6"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/banner"
+        android:text="Banner"
+        android:gravity="center"
+        android:background="#765"
+        android:layout_width="0dp"
+        android:layout_height="0dp"/>
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/banner"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="#fd3"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="12dp"
+        android:id="@+id/tv1"
+        android:layout_width="140dp"
+        android:layout_height="86dp"/>
+    <TextView
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tv1"
+        app:layout_constraintLeft_toRightOf="@id/tv1"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:text="马云:一年交税170多亿马云:一年交税170多亿马云:一年交税170多亿"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="8dp"
+        android:id="@+id/tv2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+    
+    <TextView
+        app:layout_constraintBottom_toBottomOf="@id/tv1"
+        app:layout_constraintLeft_toRightOf="@id/tv1"
+        android:text="8分钟前"
+        android:textColor="#333"
+        android:textSize="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        app:layout_constraintRight_toLeftOf="@id/tab2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Tab1"
+        android:gravity="center"
+        android:background="#f67"
+        android:id="@+id/tab1"
+        android:layout_width="0dp"
+        android:layout_height="30dp"/>
+    <TextView
+        app:layout_constraintLeft_toRightOf="@id/tab1"
+        app:layout_constraintRight_toLeftOf="@id/tab3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="#A67"
+        android:gravity="center"
+        android:text="Tab2"
+        android:id="@+id/tab2"
+        android:layout_width="0dp"
+        android:layout_height="30dp"/>
+    <TextView
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/tab2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="#767"
+        android:gravity="center"
+        android:text="Tab3"
+        android:id="@+id/tab3"
+        android:layout_width="0dp"
+        android:layout_height="30dp"/>
+    
+
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_w"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.8" />
+    
+    <android.support.constraint.Guideline
+        app:layout_constraintGuide_percent="0.8"
+        android:orientation="vertical"
+        android:id="@+id/guideline_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        app:layout_constraintVertical_bias="0.9"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="#612"
+        android:layout_width="60dp"
+        android:layout_height="60dp"/>
+    <TextView
+        android:background="#612"
+        app:layout_constraintTop_toBottomOf="@id/guideline_w"
+        app:layout_constraintLeft_toRightOf="@id/guideline_h"
+        android:layout_width="60dp"
+        android:layout_height="60dp"/>
+
+
+    
+
+</android.support.constraint.ConstraintLayout>
